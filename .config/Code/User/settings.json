@@ -1,0 +1,22 @@
+{
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "security.workspace.trust.untrustedFiles": "open",
+    "workbench.iconTheme": "material-icon-theme",
+    "terminal.integrated.scrollback": 1000000,
+    "gitlens.codeLens.recentChange.enabled": false,
+    "gitlens.codeLens.authors.enabled": false,
+    "terminal.integrated.shellIntegration.enabled": false,
+    "terminal.integrated.localEchoEnabled": "off",
+    "git.autofetch": true,
+    "[python]": {
+        "editor.formatOnType": true,
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+    "gitlens.advanced.messages": {
+        "suppressCreatePullRequestPrompt": true
+    },
+    "git.confirmSync": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "python.formatting.provider": "none",
+    "git.inputValidation": true,
+    "workbench.colorTheme": "Dracula",

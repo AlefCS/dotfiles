@@ -1,0 +1,10 @@
+# Specific files
+compile_commands.json
+
+# Files by extension
+*.py[cod]
+
+# Folders
+.vscode/*
+__pycache__/*
+.qtc_clangd/*
