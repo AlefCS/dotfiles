@@ -1,5 +1,6 @@
 [global_config]
   enabled_plugins = ActivityWatch, InactivityWatch, LaunchpadBugURLHandler, LaunchpadCodeURLHandler, APTURLHandler, DumpToFile
+  case_sensitive = False
 [keybindings]
   switch_to_tab_1 = None
 [profiles]
@@ -17,4 +18,5 @@
     [[[child1]]]
       type = Terminal
       parent = window0
+      profile = default
 [plugins]

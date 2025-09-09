@@ -116,6 +116,4 @@ source $ZSH/oh-my-zsh.sh
 # computer.
 if [ -f $HOME/.zshrc.local ]; then
     source $HOME/.zshrc.local
-else
-    echo "Missing $HOME/.zshrc.local"
 fi

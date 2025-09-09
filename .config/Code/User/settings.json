@@ -5,11 +5,9 @@
     "terminal.integrated.scrollback": 1000000,
     "gitlens.codeLens.recentChange.enabled": false,
     "gitlens.codeLens.authors.enabled": false,
-    "terminal.integrated.shellIntegration.enabled": false,
     "terminal.integrated.localEchoEnabled": "off",
     "git.autofetch": true,
     "[python]": {
-        "editor.formatOnType": true,
         "editor.defaultFormatter": "ms-python.black-formatter"
     },
     "gitlens.advanced.messages": {
@@ -19,5 +17,46 @@
     "diffEditor.ignoreTrimWhitespace": false,
     "python.formatting.provider": "none",
     "git.inputValidation": true,
-    "workbench.colorTheme": "Dracula",
+    "workbench.colorTheme": "Dracula Theme",
+    "diffEditor.renderSideBySide": true,
+    "indentRainbow.indicatorStyle": "light",
+    "indentRainbow.lightIndicatorStyleLineWidth": 1,
+    "indentRainbow.colors": [
+        "rgba(255,255,64,0.3)",
+        "rgba(127,255,127,0.3)",
+        "rgba(255,127,255,0.3)",
+        "rgba(79,236,236,0.3)",
+    ],
+    "gitlens.views.commitDetails.files.layout": "list",
+    "gitlens.views.branches.files.layout": "tree",
+    "redhat.telemetry.enabled": false,
+    "indentRainbow.ignoreErrorLanguages": [
+        "*"
+    ],
+    "java.debug.settings.showHex": true,
+    "gitlens.views.scm.grouped.views": {
+        "commits": true,
+        "branches": true,
+        "remotes": true,
+        "stashes": true,
+        "tags": true,
+        "worktrees": true,
+        "contributors": true,
+        "fileHistory": false,
+        "repositories": false,
+        "searchAndCompare": false,
+        "launchpad": false
+    },
+    "gitlens.launchpad.indicator.enabled": false,
+    "coverage-gutters.showRulerCoverage": true,
+    "files.associations": {
+        "Makefile.*": "makefile"
+    },
+    "editor.rulers": [
+        100,
+    ],
+    "editor.selectionClipboard": false,
+    "editor.scrollOnMiddleClick": true,
+    "python.terminal.shellIntegration.enabled": true,
+    "python.analysis.supportAllPythonDocuments": true,
 }
